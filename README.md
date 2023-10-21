@@ -1,4 +1,14 @@
+## Instruction for using hoomd
+
+1. Install Anaconda:
+\```
+https://conda.io/projects/conda/en/latest/user-guide/install/linux.html
+\```
+
+\```
 conda create -n hmd python=3.11
+\```
+
 conda activate hmd
 #возможно придётся установит cuda 12.0 
 export CONDA_OVERRIDE_CUDA="12.0"
