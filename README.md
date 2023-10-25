@@ -48,3 +48,17 @@ sudo add-apt-repository ppa:flexiondotorg/nvtop
 sudo apt install nvtop
 ```
 nvtop
+
+## Ovito installing
+```
+https://www.ovito.org/linux-downloads/
+```
+Install the required system libraries using your Linux package manager:
+
+On Ubuntu/Debian systems:
+```
+sudo apt-get install libxcb1 libx11-xcb1 libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
+            libxcb-randr0 libxcb-render-util0 libxcb-render0 libxcb-shape0 libxcb-shm0 \
+            libxcb-sync1 libxcb-xfixes0 libxcb-xinerama0 libxcb-xinput0 libxcb-xkb1 libxcb-cursor0 \
+            libfontconfig1 libfreetype6 libopengl0 libglx0 libx11-6
+```
